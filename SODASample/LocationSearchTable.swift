@@ -54,11 +54,12 @@
 
 import UIKit
 import MapKit
+import Foundation
 
 class LocationSearchTable: UITableViewController {
     
-    
-    weak var handleMapSearchDelegate: HandleMapSearch?
+//    weak var handleMapSearchDelegate: HandleMapSearch?
+    var handleMapSearchDelegate:HandleMapSearch? = nil
     var matchingItems: [MKMapItem] = []
     var mapView: MKMapView?
     
@@ -127,7 +128,7 @@ extension LocationSearchTable {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
         let selectedItem = matchingItems[indexPath.row].placemark
         cell.textLabel?.text = selectedItem.name
         cell.detailTextLabel?.text = parseAddress(selectedItem)
