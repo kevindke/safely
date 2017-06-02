@@ -12,6 +12,8 @@ The Safely app uses map-based visualizations of Seattle Police Department crime 
 [**Contact Information**](https://github.com/kevindke/safely#contact-information)  
 [**Video**](https://github.com/kevindke/safely#video-clip-showing-project-in-action)  
 
+##
+
 ### List of Functionalities
 
 A heat map of historical data (up to a year ago) are depicted in varied opacity in teal. The more opaque an area is, the more frequently crime has occurred there in the past year.
