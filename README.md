@@ -6,11 +6,11 @@ In large cities like Seattle, there are many situations where people feel unsafe
  
 The Safely app uses map-based visualizations of Seattle Police Department crime logs to display historical data (as a heatmap) and recent data (as interactive tips).  Safely users can also submit their own crime tips to be visualized on the map, creating geofenced radii of the incident. Other Safely users will receive a push notification upon entry. Overall, the Safely system keeps users vigilant of threats in a more time-sensitive manner than other forms of communication in the city. 
 
--[**List of Functionalities**](https://github.com/kevindke/safely#list-of-functionalities)  
--[**List of Contents**](https://github.com/kevindke/safely#list-of-contents)  
--[**Summary of Major Technology Decisions**](https://github.com/kevindke/safely#summary-of-major-technology-decisions)  
--[**Contact Information**](https://github.com/kevindke/safely#contact-information)  
--[**Video**](https://github.com/kevindke/safely#video-clip-showing-project-in-action)  
+- [**List of Functionalities**](https://github.com/kevindke/safely#list-of-functionalities)  
+- [**List of Contents**](https://github.com/kevindke/safely#list-of-contents)  
+- [**Summary of Major Technology Decisions**](https://github.com/kevindke/safely#summary-of-major-technology-decisions)  
+- [**Contact Information**](https://github.com/kevindke/safely#contact-information)  
+- [**Video**](https://github.com/kevindke/safely#video-clip-showing-project-in-action)  
 
 ##
 
