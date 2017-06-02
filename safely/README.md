@@ -86,11 +86,3 @@ Adrian Pacheco  /  Designer  /  adrianpacheco95@gmail.com
 ### Video Clip Showing Project in Action
  
 https://drive.google.com/open?id=0B9ejwWRyKbWhUi1FdnhnNldHSE0
- 
-A heat map of historical data (up to a year ago) are depicted in varied opacity in teal. The more opaque an area is, the more frequently crime has occurred there in the past year.  
-   
-911 calls recorded in the past 72 hours are shown as red tips with different icons depicting categories of crime - cautionary/disturbances, assault/harassment/sex offense, theft/burglary/robbery, suspicious activity/lewd conduct, casualties/injuries, and gun/weapon calls.  
-  
-Search for locations by address or landmark and view the current and historical crime conditions of that area.  
-  
-Add a tip to the map by setting the location, radius (for the geofence), offense type,  and a short description. Other Safely users will receive a push notification about the crime if they enter the radius set around the incident.
