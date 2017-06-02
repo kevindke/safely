@@ -1,12 +1,12 @@
-#Safely
+# Safely
 
-##Informing people about unsafe situations with real-time data.
+## Informing people about unsafe situations with real-time data.
  
 In large cities like Seattle, there are many situations where people feel unsafe when travelling on foot, particularly at night.  While it’s difficult to provide assistance in time to someone who has the misfortune of falling victim to crime, Safely aims to preemptively inform users of dangerous situations before they enter physical proximity of the danger. 
  
 The Safely app uses map-based visualizations of Seattle Police Department crime logs to display historical data (as a heatmap) and recent data (as interactive tips).  Safely users can also submit their own crime tips to be visualized on the map, creating geofenced radii of the incident. Other Safely users will receive a push notification upon entry. Overall, the Safely system keeps users vigilant of threats in a more time-sensitive manner than other forms of communication in the city. 
 
-###List of Functionalities
+### List of Functionalities
 
 A heat map of historical data (up to a year ago) are depicted in varied opacity in teal. The more opaque an area is, the more frequently crime has occurred there in the past year.
  
@@ -16,7 +16,7 @@ Search for locations by address or landmark and view the current and historical 
  
 Add a tip to the map by setting the location, radius (for the geofence), offense type,  and a short description. Other Safely users will receive a push notification about the crime if they enter the radius set around the incident.
  
-###List of Contents
+### List of Contents
  
 Seattle.gpx
 GPS exchange format file for running Seattle coordinates through the Xcode simulator (if not testing on a phone)
@@ -55,7 +55,7 @@ Images
 All images needed for the UI are included in this folder of assets.
  
     
-###Summary of Major Technology Decisions
+### Summary of Major Technology Decisions
 Our technology stack was largely decided upon based on our user research and our team’s collective development experience. 
  
 Native toolkit: Apple XCode 8 (iOS)
@@ -77,14 +77,20 @@ Adapting & Modifying existing projects
 Due to the time constraints of our project, it was the most time and cost effective for us to build upon pre-existing open source projects that contained functionality we were looking to implement in our final project. Geotifications, Dropdown Menu, and LocationSearch allowed us to pick out existing UI map functionalities and customize them in a way that worked best for our app’s functionality. In addition, working with pre-existing code and reading tutorials and documentation on how to implement these features was very helpful for our team, who had very minimal experience coding in Swift 3 at the beginning of our project.
  
  
-###Contact Information
-Justine Edrozo  /  Designer & Developer  /  justineedrozo@gmail.com
-Kevin Ke  /  Designer & Developer  /  kevinkdke@gmail.com
-Brooks Lobe  /  Data Analyst  /  brooks.lobe@gmail.com
-Adrian Pacheco  /  Designer  /  adrianpacheco95@gmail.com
+### Contact Information
+Justine Edrozo  /  Designer & Developer  /  justineedrozo@gmail.com  
+Kevin Ke  /  Designer & Developer  /  kevinkdke@gmail.com  
+Brooks Lobe  /  Data Analyst  /  brooks.lobe@gmail.com  
+Adrian Pacheco  /  Designer  /  adrianpacheco95@gmail.com  
  
-###Video Clip Showing Project in Action
+### Video Clip Showing Project in Action
  
 https://drive.google.com/open?id=0B9ejwWRyKbWhUi1FdnhnNldHSE0
  
-
+A heat map of historical data (up to a year ago) are depicted in varied opacity in teal. The more opaque an area is, the more frequently crime has occurred there in the past year.  
+   
+911 calls recorded in the past 72 hours are shown as red tips with different icons depicting categories of crime - cautionary/disturbances, assault/harassment/sex offense, theft/burglary/robbery, suspicious activity/lewd conduct, casualties/injuries, and gun/weapon calls.  
+  
+Search for locations by address or landmark and view the current and historical crime conditions of that area.  
+  
+Add a tip to the map by setting the location, radius (for the geofence), offense type,  and a short description. Other Safely users will receive a push notification about the crime if they enter the radius set around the incident.
